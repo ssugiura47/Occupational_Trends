@@ -4,6 +4,14 @@ OVERVIEW:
 QUESTION TO ANSWER:
     Which occupation will be highest in demand in California in the next 10 years?
 
+GROUP PROJECT MEMBERS: Saki Sugiura, Belinda Soerjohadi, Jessica Nguyen, Usha Chari, Fatima Donato  
+
+![1-Logo](Image/occupation-trend.png)  
+![1-Logo](Image/industry.png)  
+
+Tableau Public link:
+https://public.tableau.com/profile/saki4655#!/vizhome/OccupationalTrends_16085093575400/ML-DataInfo?publish=yes
+
 DATA SOURCES WE USE:
 •	https://data.edd.ca.gov/Industry-Information-/Current-Employment-Statistics-CES-/r4zm-kdcg
 Current Employment Statistics (CES)
