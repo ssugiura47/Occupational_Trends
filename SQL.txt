@@ -1,0 +1,55 @@
+CREATE USER admin22 with Password '12345'
+Alter User admin22 With SuperUser;
+
+IF EXISTS(SELECT *
+FROM dbo.occupation-trends)
+DROP TABLE dbo.unemployment_rate_by_age
+DROP TABLE dbo.local_area_unemployment_stats
+DROP TABLE dbo.longterm_occupational_employment
+DROP TABLE dbo.occupational_employment_stats
+DROP TABLE dbo.current_employment_stats
+
+CREATE TABLE unemployment_rate_by_age(
+area_name VARCHAR,
+year INT,
+age_16_19 FLOAT,
+age_20_24 FLOAT,
+age_25_34 FLOAT,
+age_35_44 FLOAT,
+age_45_54 FLOAT,
+age_55_64 FLOAT,
+age_65 FLOAT
+);
+
+CREATE TABLE local_area_unemployment_stats(
+area_name VARCHAR,
+year INT,
+employment INT,
+unemployment INT,
+unemployment_rate FLOAT
+);
+
+CREATE TABLE longterm_occupational_employment(
+area_name VARCHAR,
+period VARCHAR, 
+occupational_title VARCHAR, 
+percentage_change FLOAT,
+median_hourly_wage FLOAT,
+median_annual_wage FLOAT,
+entry_level_education VARCHAR
+);
+
+CREATE TABLE occupational_employment_stats(
+area_name VARCHAR,
+year INT,
+wage_type VARCHAR,
+occupational_title VARCHAR,
+mean_wage FLOAT
+);
+
+CREATE TABLE current_employment_stats(
+area_name VARCHAR,
+year INT, 
+industry_title VARCHAR,
+current_employment INT
+);
