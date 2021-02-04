@@ -9,6 +9,9 @@ GROUP PROJECT MEMBERS: Saki Sugiura, Belinda Soerjohadi, Jessica Nguyen, Usha Ch
 ![Image1](Images/occupation-trends.PNG)  
 ![Image2](Images/industry.PNG)  
 
+Findings:
+Similar tred in unemployment throughout the years. Unemployement seen through the 2020 pandemic is the worst it's every been. Healthcare industry has always been the most in demand with the highest average income.
+
 Tableau Public link:
 https://public.tableau.com/profile/saki4655#!/vizhome/OccupationalTrends_16085093575400/ML-DataInfo?publish=yes
 
