@@ -6,8 +6,8 @@ QUESTION TO ANSWER:
 
 GROUP PROJECT MEMBERS: Saki Sugiura, Belinda Soerjohadi, Jessica Nguyen, Usha Chari, Fatima Donato  
 
-![1-Logo](occupation-trend.png)  
-![1-Logo](industry.png)  
+![Image1](Images/occupation-trends.PNG)  
+![Image2](Images/industry.PNG)  
 
 Tableau Public link:
 https://public.tableau.com/profile/saki4655#!/vizhome/OccupationalTrends_16085093575400/ML-DataInfo?publish=yes
